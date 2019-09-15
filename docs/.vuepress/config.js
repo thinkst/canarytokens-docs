@@ -1,5 +1,5 @@
 module.exports = {
-  dest: 'canarytokens',
+  dest: 'docs/.vuepress/dist',
   locales: {
     '/': {
       lang: 'en-US',
