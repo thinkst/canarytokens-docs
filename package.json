@@ -1,5 +1,25 @@
 {
-    "scripts": {
-        "docs:build": "vuepress build docs"
-    }
+  "name": "canarytokens-docs",
+  "version": "1.0.0",
+  "description": "Welcome to the offical repository for Canarytokens Documenation!",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinkst/canarytokens-docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thinkst/canarytokens-docs/issues"
+  },
+  "homepage": "https://github.com/thinkst/canarytokens-docs#readme"
 }
