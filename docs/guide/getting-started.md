@@ -4,7 +4,7 @@
 
 Go to [canarytokens.org](https://canarytokens.org/generate) and select your Canarytoken (supply an email to be notified at as well as a memo that reminds you which Canarytoken this is and where you put it).
 
-<< pic >>
+![Created an HTTP token](../.vuepress/images/http_token_creating.png)
 
 Place the generated Canarytoken somewhere special (read the [examples](./examples.md) for ideas on where).
 
@@ -31,7 +31,8 @@ would still activate your token. This gives us a the simplest use-case for a tok
 
 For example, you could send yourself an email with a link to the token plus some lure text:
 
-<< pic >>
+![Tokened mail](../.vuepress/images/tokened_mail.png)
+
 
 Simply keep it in your inbox unread since you know not to touch it. An attacker who has grabbed your mail-spool doesn't. So if your emails are stolen, then an attacker reading them should be attracted to the mail and visit the link – and while your week is about to get worse, at least you know.
 
