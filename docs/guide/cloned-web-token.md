@@ -6,12 +6,23 @@ This Canarytoken is placed within the JavaScript of your websites and notifies y
 
 ## Creating a Cloned Website token
 
-Head on over to [canarytokens.org](https://canarytokens.org/generate) and select `Cloned Website`:
+Create a token by choosing "Cloned Website" from the drop down list.
 
-![Creating a Cloned Website token](../.vuepress/images/cloned_web_token_creating.png)
+Leave a reasonable comment to remind yourself where you will deploy the token. Then, supply the domain that you want to protect (this is the domain where the site is deployed that you will insert you tokenized javascript into).
 
-Enter your email address along with a reminder that will be easy to understand. Also supply the domain that your token will live at then click Create:
+The file can now be downloaded. Remember, this token is triggered whenever the binary file is executed. For EXEs, this means direct execution and for DLLs, it means they were loaded.
 
-![Created a Cloned Website token](../.vuepress/images/cloned_web_token_created.png)
+You'll get javascript similar to:
 
-Copy the javascript (optionally run through an obfuscator) onto the pages of the website deployed at the specified domain.
+```javscript
+if (document.domain != "thinkst.com") {
+    var l = location.href;
+    var r = document.referrer;
+    var m = new Image();
+    m.src = "http://canarytokens.com/"+
+            "<TOKEN>.jpg?l="+
+            encodeURI(l) + "&amp;r=" + encodeURI(r);
+}
+```
+
+Copy the javascript (optionally run through an [obfuscator](https://www.google.com/search?q=JavaScript+Obfuscator)) onto the pages of the website deployed at the specified domain.

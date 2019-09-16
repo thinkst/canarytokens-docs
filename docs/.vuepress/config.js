@@ -47,7 +47,18 @@ module.exports = {
             'examples',
             'http-token',
             'dns-token',
+            'web-image-token',
             'cloned-web-token',
+            'adobe-pdf-token',
+            'ms-word-token',
+            'windows-directory-token',
+            'custom-exe-token',
+            'qr-code-token',
+            'svn-token',
+            'aws-keys-token',
+            'fast-redirect-token',
+            'slow-redirect-token',
+            'sql-server-token',
           ]
         }
       ]
