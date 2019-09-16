@@ -46,6 +46,8 @@ module.exports = {
           children: [
             'examples',
             'http-token',
+            'dns-token',
+            'cloned-web-token',
           ]
         }
       ]
