@@ -20,9 +20,10 @@ Enter your email address along with a reminder that will be easy to understand t
 
 Copy the hostname and place it somewhere useful.
 
-## Encoding information in your token
+## Encoding additional information in your token
 
-Your DNS token can carry a small amount of custom data when it's triggered. Use the following encoding rules to place generic data into your DNS token:
+Your DNS token can carry a small amount of additional custom data when it’s triggered. This can be used for adding incident specific data to your alert with custom DNS based tokens. Use the following encoding rules to place generic data into your DNS token:
+
  * Base32 encode your data, and remove any padding '=' characters
  * Insert periods (.) after every 63-bytes
  * Append the magic string '.G'+<2-random-digits>+'.' (e.g. '.G12.' or '.G83.')
