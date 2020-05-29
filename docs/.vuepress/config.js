@@ -1,4 +1,7 @@
 module.exports = {
+  head: [
+    ['link', { rel: 'icon', href: '/logo.png' }]
+  ],
   dest: 'docs/.vuepress/dist',
   locales: {
     '/': {
@@ -8,6 +11,7 @@ module.exports = {
     },
   },
   themeConfig: {
+    logo: '/logo.png',
     repo: 'thinkst/canarytokens',
     repoLabel: 'Github',
     docsRepo: 'thinkst/canarytokens-docs',
