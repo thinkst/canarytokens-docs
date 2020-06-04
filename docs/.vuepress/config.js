@@ -1,6 +1,6 @@
 module.exports = {
   head: [
-    ['link', { rel: 'icon', href: '/logo.png' }]
+    ['link', { rel: 'icon', href: '/favicon.png' }],
   ],
   dest: 'docs/.vuepress/dist',
   locales: {
