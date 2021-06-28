@@ -55,6 +55,7 @@ module.exports = {
             'cloned-web-token',
             'adobe-pdf-token',
             'ms-word-token',
+            'ms-excel-token',
             'windows-directory-token',
             'custom-exe-token',
             'qr-code-token',
