@@ -2,7 +2,7 @@
 
 ## What is an SVN Token
 
-This token alerts whenever anyone attemps to clone an SVN repository.
+This token alerts whenever anyone attempts to clone an SVN repository.
 
 ## Creating the token
 
