@@ -8,7 +8,7 @@ This Canarytoken is placed within the JavaScript of your websites and notifies y
 
 Create a token by choosing "Cloned Website" from the drop down list.
 
-Leave a reasonable comment to remind yourself where you will deploy the token. Then, supply the domain that you want to protect (this is the domain where the site is deployed that you will insert you tokenized javascript into).
+Leave a reasonable comment to remind yourself where you will deploy the token. Then, supply the domain that you want to protect (this is the domain where the site is deployed that you will insert your tokenized javascript into).
 
 You'll get javascript similar to:
 
