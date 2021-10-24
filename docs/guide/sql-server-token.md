@@ -12,4 +12,4 @@ Leave a reasonable comment to remind yourself where you will deploy the token.
 
 Download the SQL script and run it against the SQL Server database of your choice.
 
->**Note:** Since DNS is used as the underlying transport, the Source IP will be that of a DNS server, not the db server.
+>**Note:** Since DNS is used as the underlying transport, the Source IP will be that of a DNS server, not the DB server.
