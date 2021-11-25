@@ -64,6 +64,7 @@ module.exports = {
             'fast-redirect-token',
             'slow-redirect-token',
             'sql-server-token',
+            'wireguard-token',
           ]
         }
       ]
