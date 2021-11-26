@@ -4,7 +4,7 @@
 
 The WireGuard Canarytoken allows you to add a “fake” WireGuard VPN endpoint on your device in
 seconds. If your device is compromised, a knowledgeable attacker is likely to enumerate VPN
-configurations and try connect to them. With the WireGuard Canarytoken, if this happens, you receive
+configurations and try to connect to them. With the WireGuard Canarytoken, if this happens, you receive
 an alert. This can be useful at moments like national border crossings when devices can be seized
 and inspected out of sight.
 
