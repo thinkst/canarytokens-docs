@@ -41,7 +41,7 @@ Here's a Python example of the encoding rules:
 >>> token='pz21qtyfsidipvrsuzs9n2udi.canarytokens.com'
 >>> data='I am a teapot, hear me pour! Glug, glug, glug.'
 >>> import base64, re, random
->>> '.'.join(filter(lambda x: x,re.split(r'(.{63})', base64.b32encode(data).replace('=',''))) + ['G'+str(random.randint(10,99)), token])
+>>> '.'.join(filter(lambda x: x,re.split(r'(.{63})', base64.b32encode(data.encode('utf8')).decode('utf8').replace('=','')) + ['G'+str(random.randint(10,99)), token]))
 'JEQGC3JAMEQHIZLBOBXXILBANBSWC4RANVSSA4DPOVZCCICHNR2WOLBAM5WHKZZ.MEBTWY5LHFY.G72.pz21qtyfsidipvrsuzs9n2udi.canarytokens.com'
 ```
 
