@@ -10,7 +10,7 @@ Create a token by choosing "AWS API Key" from the drop down list.
 
 Leave a reasonable comment to remind yourself where you will deploy the token.
 
-The AWS credentials that are displayed are can be copied into a file named credentials or keys (as per AWS custom). The two provided keys must be kept together for an attacker to use the AWS API.
+The AWS credentials that are displayed can be copied into a file named credentials or keys (as per AWS custom). The two provided keys must be kept together for an attacker to use the AWS API.
 
 The file downloaded contains the AWS API credentials linked to your Canarytoken. The file is formatted such that it looks like a legitimate AWS credentials file.
 
