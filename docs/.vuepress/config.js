@@ -28,7 +28,7 @@ module.exports = {
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
       { text: 'Create', link: 'https://canarytokens.org/' },
-      { text: 'Login', link: '/login/' },
+      // { text: 'Login', link: '/login/' },
     ],
     sidebar: {
       '/guide/':[
