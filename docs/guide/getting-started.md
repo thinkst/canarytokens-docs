@@ -8,7 +8,7 @@ Go to [canarytokens.org](https://canarytokens.org/generate) and select your Cana
 
 Place the generated Canarytoken somewhere special (read the [examples](./examples.md) for ideas on where).
 
-If an attacker ever trips on the Canarytoken somehow, you'll get an email letting you know that it is happened.
+If an attacker ever trips on the Canarytoken somehow, you'll get an email letting you know that it has happened.
 
 ## How do attackers trip over a token
 
@@ -27,7 +27,7 @@ http://45e51129ec7e.o3n.io/images/o63277vnjf6nfobn3cbey69fh/passwords.zip
 http://45e51129ec7e.o3n.io/images/o63277vnjf6nfobn3cbey69fh/anything-really
 ```
 
-would still activate your token. This gives us a the simplest use-case for a token, an old fashioned web-bug.
+would still activate your token. This gives us the simplest use-case for a token, an old fashioned web-bug.
 
 For example, you could send yourself an email with a link to the token plus some lure text:
 
@@ -40,7 +40,7 @@ If you like, you could even use the same token as an embedded image. This way it
 
 ## What memo should I use
 
-Over time, if you are using Canarytokens correctly, you will deploy thousands of them all over the place. Make sure that your Reminder is a descriptive, and will be self describing. Nothing sucks more than having a token fire an alert that reads “test" - and not knowing where you placed it.
+Over time, if you are using Canarytokens correctly, you will deploy thousands of them all over the place. Make sure that your Reminder is descriptive, and will be self-describing. Nothing sucks more than having a token fire an alert that reads “test" - and not knowing where you placed it.
 
 ## Production Usage
 

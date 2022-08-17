@@ -2,7 +2,7 @@
 
 ## What is a Slow Redirect Token
 
-This token is similar to the HTTP token but the token redirects to a custom address once triggered. The difference between the regular Fast Redirect token and this is that this token runs a browser scanner that collects browser / plugin information.
+This token is similar to the HTTP token but the token redirects to a custom address once triggered. The difference between the regular Fast Redirect token and this is that this token runs a browser scanner that collects browser/plugin information.
 
 ## Creating the token
 

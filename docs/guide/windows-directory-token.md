@@ -16,4 +16,4 @@ This offers you a download of a desktop.ini file (inside of a zip file). Simply 
 
 ## How this works
 
-Dropping a desktop.ini file in a folder allows Explorer to set a custom icon for a file. Since this icon can reside on a remote server (via a UNC path), using DNS we can effectively make use of a token as our iconfile.
+Dropping a desktop.ini file in a folder allows Explorer to set a custom icon for a file. Since this icon can reside on a remote server (via a UNC path), using DNS we can effectively make use of a token as our icon file.

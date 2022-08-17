@@ -28,7 +28,7 @@ module.exports = {
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
       { text: 'Create', link: 'https://canarytokens.org/' },
-      { text: 'Login', link: '/login/' },
+      // { text: 'Login', link: '/login/' },
     ],
     sidebar: {
       '/guide/':[
@@ -64,6 +64,7 @@ module.exports = {
             'fast-redirect-token',
             'slow-redirect-token',
             'sql-server-token',
+            'wireguard-token',
           ]
         }
       ]
