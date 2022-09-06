@@ -35,8 +35,6 @@ You can do this from an Administrative Command Shell.
 
 Once installed (with admin permissions) you'll get an alert whenever someone (or someone's code) runs your sensitive process. It will automatically provide the command used, computer the command ran on, and the user invoking the command.
 
-Ideas for use:
-
 Ideal candidates are executables often used by attackers but seldom used by regular users (e.g., whoami.exe, net.exe, wmic.exe, etc.).
 
 You can use this for attacker tools that are not present on your system (e.g., mimikatz.exe), and if they are ever downloaded and run you'll get an alert!
@@ -44,4 +42,6 @@ You can use this for attacker tools that are not present on your system (e.g., m
 Use a network management tool to deploy across your organization.
 
 The alert will display the username and the hostname the command was executed on.
+
+
 
