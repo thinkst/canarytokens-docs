@@ -32,7 +32,7 @@ This creates a new hostname of the form:
 ```
   <base32-string>.<base32-string>.G<2-random-digits>.<dns-token>
 ```
-Bear in mind the total length of the hostname still cannot exceed 253-bytes, so the amount of raw bytes that can be encoded is ~125.
+Bear in mind the total length of the hostname still cannot exceed 253-bytes, so the amount of raw bytes that can be encoded is ~125. If the data cannot be decoded as UTF-8, it will be returned as a `hexlify`ed string.
 
 ### Example code
 
