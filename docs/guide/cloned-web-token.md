@@ -12,7 +12,7 @@ Leave a reasonable comment to remind yourself where you will deploy the token. T
 
 You'll get javascript similar to:
 
-```javscript
+```javascript
 if (document.domain != "thinkst.com") {
     var l = location.href;
     var r = document.referrer;

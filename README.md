@@ -1,6 +1,6 @@
 # Introduction
 
-Welcome to the offical repository for Canarytokens Documenation!
+Welcome to the official repository for Canarytokens Documentation!
 
 This is currently a work-in-progress, and we'll be adding to the docs as we can.
 
