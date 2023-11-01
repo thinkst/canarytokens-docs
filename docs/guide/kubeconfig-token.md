@@ -30,7 +30,7 @@ A Kubeconfig token can also be used as a secret in CI/CD platforms, as most mode
 
 When using the Kubeconfig token with CI/CD platforms, you might see some limitations. Some CI/CD platforms don't support secrets longer than 10000 characters, and require the secret to be encoded in base64.
 
-A Kubeconfig token when converted to base64 typically has more than 10000 characters. In such a case, there's a way to make the kubeconfig (any kubeconfig file, not just our Canarytoken) compact by removing `clusters.cluster.certificate-authority-data` and replacing it with `clusters.cluster.insecure-skip-tls-verify: true`.
+A Kubeconfig token when converted to base64 typically has more than 10000 characters. In such a case, there's a way to make the kubeconfig (any `kubeconfig` file, not just our Canarytoken) compact by removing `clusters.cluster.certificate-authority-data` and replacing it with `clusters.cluster.insecure-skip-tls-verify: true`.
 
 ```
 apiVersion: v1
