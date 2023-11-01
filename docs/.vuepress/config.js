@@ -67,6 +67,7 @@ module.exports = {
             'slow-redirect-token',
             'sql-server-token',
             'wireguard-token',
+            'kubeconfig-token'
           ]
         }
       ]
