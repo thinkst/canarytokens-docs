@@ -12,7 +12,7 @@ Using the Kubeconfig Canarytoken will simply return permission errors to an atta
 
 Head on over to [canarytokens.org](https://canarytokens.org/generate) and select Kubeconfig token.
 
-Enter the email address or webhoook where you would like to get alerts. Next, enter a reminder note that will be convenient for you to identify where you placed the Kubeconfig, when you get alerted.
+Enter the email address or webhook where you would like to get alerts. Next, enter a reminder note that will be convenient for you to identify where you placed the Kubeconfig, when you get alerted.
 
 Create the token by clicking on `Create my Canarytoken`.
 ![Creating a Kubeconfig token](../.vuepress/images/kubeconfig_token_creating.png)
@@ -42,4 +42,4 @@ clusters:
   name: k8s-prod-cluster
 ```
 
-This flag essentially asks `kubectl` to silently skip TLS verification and doesn't not hinder the working of the Canarytoken. When converted to base64 now, it will contain less than 10000 characters and will still alert you when used.
+This flag essentially asks `kubectl` to silently skip TLS verification and does not hinder the working of the Canarytoken. When converted to base64 now, it will contain less than 10000 characters and will still alert you when used.
