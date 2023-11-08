@@ -7,7 +7,7 @@ module.exports = {
     '/': {
       lang: 'en-US',
       title: 'Canarytokens',
-      description: 'Offical docs for Canarytokens'
+      description: 'Official docs for Canarytokens'
     },
   },
   themeConfig: {
