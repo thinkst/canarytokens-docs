@@ -6,7 +6,7 @@ This Canarytoken is placed within either the CSS of your site, or inside a 3rd p
 
 ## Creating a CSS Cloned Website Token
 
-Create a token by choosing "CSS Cloned Website" from the drop down list.
+Create a token by choosing "CSS Cloned Website" from the dropdown list.
 
 Leave a reasonable comment to remind yourself where you will deploy the token. Then, supply the domain that you want to protect (this is the domain where the site is deployed that you will insert your tokenized css into).
 
