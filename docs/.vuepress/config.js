@@ -53,6 +53,7 @@ module.exports = {
             'dns-token',
             'web-image-token',
             'cloned-web-token',
+            'css-cloned-site-token',
             'adobe-pdf-token',
             'ms-word-token',
             'ms-excel-token',
