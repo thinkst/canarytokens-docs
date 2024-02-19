@@ -54,6 +54,7 @@ module.exports = {
             'web-image-token',
             'cloned-web-token',
             'css-cloned-site-token',
+	    'entraid-token',
             'adobe-pdf-token',
             'ms-word-token',
             'ms-excel-token',
