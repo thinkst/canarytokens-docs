@@ -8,7 +8,7 @@ This Canarytoken allows you to get a notification when someone browses to a “C
 
 Create a Canarytoken, by choosing “Windows Directory Browsing" from the Canarytoken's list.
 
-Leave a reasonable comment to remind you where you will deploy the toCanarytokenken and then download the generated file.
+Leave a reasonable comment to remind you where you will deploy the Canarytoken and then download the generated file.
 
 This offers you a download of a desktop.ini file (inside of a zip file). Simply create a folder on a Windows machine of your choice, and place the desktop.ini file in it. If an attacker browses that directory, you will get your console alert.
 

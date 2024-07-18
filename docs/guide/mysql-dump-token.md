@@ -5,7 +5,7 @@
 This Canarytoken is a sequence of SQL commands that trigger upon being imported or otherwise executed on a MySQL server. These commands can be optionally obfuscated and/or embedded into a fake SQL dump file with synthetic data.
 
 
-## Creating the tokCanarytokenen
+## Creating the Canarytoken
 
 Create a Canarytoken by choosing "MySQL" from the Canarytoken's list.
 

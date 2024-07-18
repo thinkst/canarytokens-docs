@@ -48,4 +48,4 @@ Canarytokens can be used as simple web-bugs, but they are incredibly flexible as
 
 You may have a fancy SIEM that lets you know when stuff happens, but you'll find that with a little creativity, there's a bunch of places that you could get wins from a Canarytoken (that can be deployed in seconds) that you couldn't easily get to otherwise.
 
-Do you trust the admins/support at DropBox to leave your files alone? (or Office365? or HipChat?) Simply generate a Canarytoken and drop it in your folder, or mention it in your HipChat channel. If some admin is browsing contents in their spare time (or is being coerced to do so by a 3rd party) they will trip over your URL and you'll be notified.
+Do you trust the admins/support at DropBox to leave your files alone? (or Office365?) Simply generate a Canarytoken and drop it in your folder, or mention it in your HipChat channel. If some admin is browsing contents in their spare time (or is being coerced to do so by a 3rd party) they will trip over your URL and you'll be notified.

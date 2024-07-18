@@ -10,7 +10,7 @@ Using the Kubeconfig Canarytoken will simply return permission errors to an atta
 
 ## Creating a Kubeconfig token
 
-Head on over to [canarytokens.org](https://canarytokens.org/generate) and select Kubeconfig Canarytoken.
+Head on over to [canarytokens.org](https://canarytokens.org/generate) and select `Kubeconfig`.
 
 Enter the email address or webhook where you would like to get alerts. Next, enter a reminder note that will be convenient for you to identify where you placed the Kubeconfig, when you get alerted.
 
