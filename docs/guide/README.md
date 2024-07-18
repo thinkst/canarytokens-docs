@@ -12,6 +12,6 @@ Place them where nobody should be poking around and get a clear alarm if they ar
 
 ## Why should you use them
 
-Our tokens are easy to sprinkle all over and forget about, until you get the notification that matters. They are super lightweight and don’t require installing software or running more background processes that can slow down your PC.
+Our Canarytokens are easy to sprinkle all over and forget about, until you get the notification that matters. They are super lightweight and don’t require installing software or running more background processes that can slow down your PC.
 
 Canarytokens are a distilled version of our much-loved [Canary product](https://canary.tools/). They are dead simple, and they work.

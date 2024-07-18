@@ -40,7 +40,7 @@ If you like, you could even use the same Canarytoken as an embedded image. This 
 
 ## What memo should I use
 
-Over time, if you are using Canarytokens correctly, you will deploy thousands of them all over the place. Make sure that your Reminder is descriptive, and will be self-describing. Nothing sucks more than having a token fire an alert that reads “test" - and not knowing where you placed it.
+Over time, if you are using Canarytokens correctly, you will deploy thousands of them all over the place. Make sure that your Reminder is descriptive, and will be self-describing. Nothing sucks more than having a Canarytoken fire an alert that reads “test" - and not knowing where you placed it.
 
 ## Production Usage
 
