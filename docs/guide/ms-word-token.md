@@ -1,6 +1,6 @@
-# MS Word Token
+# MS Word Canarytoken
 
-## What is a MS Word Token
+## What is a MS Word Canarytoken
 
 This is a Microsoft Word document that will alert you whenever it is opened in Microsoft Office on Windows or MAC OS.
 

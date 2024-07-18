@@ -1,14 +1,14 @@
-# Cloned Website Token
+# Cloned Website Canarytoken
 
-## What is a Cloned Website Token
+## What is a Cloned Website Canarytoken
 
 This Canarytoken is placed within the JavaScript of your websites and notifies you if someone clones your site and hosts it on another domain. (This is often used for targeted Phishing attacks.)
 
-## Creating a Cloned Website token
+## Creating a Cloned Website Canarytoken
 
-Create a token by choosing "Cloned Website" from the drop down list.
+Create a Canarytoken by choosing "JS Cloned Website" from the Canarytoken's list.
 
-Leave a reasonable comment to remind yourself where you will deploy the token. Then, supply the domain that you want to protect (this is the domain where the site is deployed that you will insert your tokenized javascript into).
+Leave a reasonable comment to remind yourself where you will deploy the Canarytoken. Then, supply the domain that you want to protect (this is the domain where the site is deployed that you will insert your tokenized javascript into).
 
 You'll get javascript similar to:
 

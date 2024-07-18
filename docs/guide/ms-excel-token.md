@@ -1,8 +1,8 @@
-# MS Excel Token
+# MS Excel Canarytoken
 
 A special thanks to [Dominic White](https://twitter.com/singe) for making this happen.
 
-## What is a MS Excel Token
+## What is a MS Excel Canarytoken
 
 This is a Microsoft Excel document that will alert you whenever it is opened in Microsoft Office on Windows or MAC OS.
 
