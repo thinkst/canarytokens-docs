@@ -6,7 +6,7 @@ This Canarytoken alerts whenever anyone attempts to clone an SVN repository.
 
 ## Creating the Canarytoken
 
-Create a Canarytoken by choosing "SVN" from the Canarytoken's list.
+Create a Canarytoken by choosing "SVN" from the Canarytokens list.
 
 Leave a reasonable comment to remind yourself where you will deploy the Canarytoken.
 

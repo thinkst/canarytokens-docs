@@ -6,7 +6,7 @@ This Canarytoken works by signing an EXE or a DLL with a certificate containing 
 
 ## Creating the Canarytoken
 
-Create a Canarytoken by choosing "Custom exe / binary" from the Canarytoken's list.
+Create a Canarytoken by choosing "Custom exe / binary" from the Canarytokens list.
 
 Leave a reasonable comment to remind yourself where you will deploy the Canarytoken. Then, select the EXE or the DLL to be signed.
 

@@ -6,7 +6,7 @@ This Canarytoken works much like the default HTTP Canarytoken, but allows you to
 
 ## Creating the Canarytoken
 
-Create a Canarytoken by choosing "Web Image" from the Canarytoken's list.
+Create a Canarytoken by choosing "Web Image" from the Canarytokens list.
 
 Leave a reasonable comment to remind yourself where you will deploy the Canarytoken.
 

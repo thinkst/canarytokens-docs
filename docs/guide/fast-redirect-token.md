@@ -6,6 +6,6 @@ This Canarytoken is similar to the HTTP Canarytoken but the Canarytoken redirect
 
 ## Creating the token
 
-Create a Canarytoken by choosing "Fast Redirect" from the Canarytoken's list.
+Create a Canarytoken by choosing "Fast Redirect" from the Canarytokens list.
 
 Leave a reasonable comment to remind yourself where you will deploy the Canarytoken. Add the redirect URL to which the Canarytoken will redirect once fired. Then click "Create New Canarytoken" to create the Canarytoken.

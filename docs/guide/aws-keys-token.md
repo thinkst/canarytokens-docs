@@ -6,7 +6,7 @@ This Canarytoken provides you with a set of AWS API keys. Leave them in private 
 
 ## Creating the Canarytoken
 
-Create a Canarytoken by choosing "AWS Keys" from the Canarytoken's list.
+Create a Canarytoken by choosing "AWS Keys" from the Canarytokens list.
 
 Leave a reasonable comment to remind yourself where you will deploy the Canarytoken.
 

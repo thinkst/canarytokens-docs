@@ -6,7 +6,7 @@ This Canarytoken alerts whenever an UPDATE/SELECT/DELETE or INSERT is performed 
 
 ## Creating the Canarytoken
 
-Create a Canarytoken by choosing "SQL Server" from the Canarytoken's list.
+Create a Canarytoken by choosing "SQL Server" from the Canarytokens list.
 
 Leave a reasonable comment to remind yourself where you will deploy the Canarytoken.
 

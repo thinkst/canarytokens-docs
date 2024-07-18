@@ -7,7 +7,7 @@ This Canarytoken is a sequence of SQL commands that trigger upon being imported 
 
 ## Creating the Canarytoken
 
-Create a Canarytoken by choosing "MySQL" from the Canarytoken's list.
+Create a Canarytoken by choosing "MySQL" from the Canarytokens list.
 
 Enter your email address or webhook to send alerts to and leave a reasonable comment to remind yourself where you will deploy the Canarytoken.
 

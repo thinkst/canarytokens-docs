@@ -6,7 +6,7 @@ This Canarytoken works by encoding a URL as a QR code. When the QR code is scann
 
 ## Creating the Canarytoken
 
-Create a Canarytoken by choosing "QR Code" from the Canarytoken's list.
+Create a Canarytoken by choosing "QR Code" from the Canarytokens list.
 
 Leave a reasonable comment to remind yourself where you will deploy the Canarytoken.
 

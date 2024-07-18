@@ -6,7 +6,7 @@ This Canarytoken allows you to get a notification when someone browses to a “C
 
 ## Creating the Canarytoken
 
-Create a Canarytoken, by choosing “Windows Directory Browsing" from the Canarytoken's list.
+Create a Canarytoken, by choosing “Windows Directory Browsing" from the Canarytokens list.
 
 Leave a reasonable comment to remind you where you will deploy the Canarytoken and then download the generated file.
 
