@@ -1,6 +1,6 @@
-# WireGuard Token
+# WireGuard Canarytoken
 
-## What is a WireGuard token?
+## What is a WireGuard Canarytoken?
 
 The WireGuard Canarytoken allows you to add a “fake” WireGuard VPN endpoint on your device in
 seconds. If your device is compromised, a knowledgeable attacker is likely to enumerate VPN

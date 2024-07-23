@@ -1,14 +1,14 @@
-# QR Code Token
+# QR Code Canarytoken
 
-## What is a QR Code Token
+## What is a QR Code Canarytoken
 
-This token works by encoding a URL as a QR code. When the QR code is scanned and the URL is loaded, the token sends an alert.
+This Canarytoken works by encoding a URL as a QR code. When the QR code is scanned and the URL is loaded, the Canarytoken sends an alert.
 
-## Creating the token
+## Creating the Canarytoken
 
-Create a token by choosing "QR Code" from the drop down list.
+Create a Canarytoken by choosing "QR Code" from the Canarytokens list.
 
-Leave a reasonable comment to remind yourself where you will deploy the token.
+Leave a reasonable comment to remind yourself where you will deploy the Canarytoken.
 
 The QR image can be downloaded and placed wherever you like.
 

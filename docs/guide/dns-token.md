@@ -1,33 +1,33 @@
-# DNS Token
+# DNS Canarytoken
 
-## What is a DNS token
+## What is a DNS Canarytoken
 
 When you create a DNS based Canarytoken, the system gives you a unique Internet resolvable domain name.
 
 Anyone attempting to resolve this domain name, will now trigger an alert.
 
-Why does this matter? Once you are able to get an alert for a web-based token, or a DNS based token, you have the building blocks for squillions of possible tripwires.
+Why does this matter? Once you are able to get an alert for a web-based Canarytoken, or a DNS based Canarytoken, you have the building blocks for squillions of possible tripwires.
 
-## Creating a DNS token
+## Creating a DNS Canarytoken
 
-Head on over to [canarytokens.org](https://canarytokens.org/generate) and select `DNS token`:
+Head on over to [canarytokens.org](https://canarytokens.org/generate) and select `DNS`:
 
-![Creating a DNS token](../.vuepress/images/dns_token_creating.png)
+![Creating a DNS Canarytoken](../.vuepress/images/dns_token_creating.png)
 
 Enter your email address along with a reminder that will be easy to understand then click Create:
 
-![Created an HTTP token](../.vuepress/images/dns_token_created.png)
+![Created an HTTP Canarytoken](../.vuepress/images/dns_token_created.png)
 
 Copy the hostname and place it somewhere useful.
 
-## Encoding additional information in your token
+## Encoding additional information in your Canarytoken
 
-Your DNS token can carry a small amount of additional custom data when it’s triggered. This can be used for adding incident-specific data to your alert with custom DNS based tokens. Use the following encoding rules to place generic data into your DNS token:
+Your DNS Canarytoken can carry a small amount of additional custom data when it’s triggered. This can be used for adding incident-specific data to your alert with custom DNS based Canarytokens. Use the following encoding rules to place generic data into your DNS Canarytoken:
 
  * Base32 encode your data, and remove any padding '=' characters
  * Insert periods (.) after every 63-bytes
  * Append the magic string '.G'+<2-random-digits>+'.' (e.g. '.G12.' or '.G83.')
- * Append your DNS token
+ * Append your DNS Canarytoken
 This creates a new hostname of the form:
 ```
   <base32-string>.<base32-string>.G<2-random-digits>.<dns-token>

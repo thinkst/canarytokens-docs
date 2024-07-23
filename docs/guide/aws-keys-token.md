@@ -1,14 +1,14 @@
-# AWS API Keys Token
+# AWS API Keys Canarytoken
 
-## What is an AWS API Keys Token
+## What is an AWS API Keys Canarytoken
 
-This token provides you with a set of AWS API keys. Leave them in private code repositories, leave them on a developers machine. An attacker who stumbles on them will believe they are the keys to your cloud infrastructure. If they are used via the AWS API at any point, you will be alerted.
+This Canarytoken provides you with a set of AWS API keys. Leave them in private code repositories, leave them on a developers machine. An attacker who stumbles on them will believe they are the keys to your cloud infrastructure. If they are used via the AWS API at any point, you will be alerted.
 
-## Creating the token
+## Creating the Canarytoken
 
-Create a token by choosing "AWS API Key" from the drop down list.
+Create a Canarytoken by choosing "AWS Keys" from the Canarytokens list.
 
-Leave a reasonable comment to remind yourself where you will deploy the token.
+Leave a reasonable comment to remind yourself where you will deploy the Canarytoken.
 
 The AWS credentials that are displayed can be copied into a file named credentials or keys (as per AWS custom). The two provided keys must be kept together for an attacker to use the AWS API.
 

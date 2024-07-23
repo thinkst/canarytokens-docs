@@ -6,12 +6,12 @@ prev: false
 
 ## What are Canarytokens
 
-You'll be familiar with web bugs, the transparent images which track when someone opens an email. They work by embedding a unique URL in a page's image tag, and monitoring incoming GET requests.
+Canarytokens are like motion sensors for your networks, computers and clouds. You can put them in folders, on network devices and on your phones.
 
-Imagine doing that, but for file reads, database queries, process executions or patterns in log files. Canarytokens does all this and more, letting you implant traps in your production systems rather than setting up separate honeypots.
+Place them where nobody should be poking around and get a clear alarm if they are accessed. They are designed to look juicy to attackers to increase the likelihood that they are opened (and they are completely free).
 
 ## Why should you use them
 
-Network breaches happen. From mega-corps, to governments. From unsuspecting grandmas to well-known security pros. This is (kinda) excusable. What isn't excusable, is only finding out about it, months or years later.
+Our Canarytokens are easy to sprinkle all over and forget about, until you get the notification that matters. They are super lightweight and don’t require installing software or running more background processes that can slow down your PC.
 
-Canarytokens are a free, quick, painless way to help defenders discover they've been breached (by having attackers announce themselves.)
+Canarytokens are a distilled version of our much-loved [Canary product](https://canary.tools/). They are dead simple, and they work.

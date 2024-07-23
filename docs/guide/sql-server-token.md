@@ -1,14 +1,14 @@
-# SQL Server Token
+# SQL Server Canarytoken
 
-## What is a SQL Server Token
+## What is a SQL Server Canarytoken
 
-This token alerts whenever an UPDATE/SELECT/DELETE or INSERT is performed on a specified SQL Server table.
+This Canarytoken alerts whenever an UPDATE/SELECT/DELETE or INSERT is performed on a specified SQL Server table.
 
-## Creating the token
+## Creating the Canarytoken
 
-Create a token by choosing "SQL Server" from the drop down list.
+Create a Canarytoken by choosing "SQL Server" from the Canarytokens list.
 
-Leave a reasonable comment to remind yourself where you will deploy the token.
+Leave a reasonable comment to remind yourself where you will deploy the Canarytoken.
 
 Download the SQL script and run it against the SQL Server database of your choice.
 

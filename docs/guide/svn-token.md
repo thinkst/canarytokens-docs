@@ -1,23 +1,23 @@
-# SVN Token
+# SVN Canarytoken
 
-## What is an SVN Token
+## What is an SVN Canarytoken
 
-This token alerts whenever anyone attempts to clone an SVN repository.
+This Canarytoken alerts whenever anyone attempts to clone an SVN repository.
 
-## Creating the token
+## Creating the Canarytoken
 
-Create a token by choosing "SVN" from the drop down list.
+Create a Canarytoken by choosing "SVN" from the Canarytokens list.
 
-Leave a reasonable comment to remind yourself where you will deploy the token.
+Leave a reasonable comment to remind yourself where you will deploy the Canarytoken.
 
-Run the command to token a repository of your choosing. Don't forget to
+Run the command to Canarytoken a repository of your choosing. Don't forget to
 
 ```bash
 svn commit
 ```
 
-after you've added the token.
+after you've added the Canarytoken.
 
 ## What to tokenize
 
-A few ideas for use include: token a dummy SVN repo to detect when attackers are enumerating repos; or an old repo which shouldn't be touched any longer.
+A few ideas for use include: Canarytoken a dummy SVN repo to detect when attackers are enumerating repos; or an old repo which shouldn't be touched any longer.

@@ -1,18 +1,18 @@
-# Web Image Token
+# Web Image Canarytoken
 
-## What is a Web Image Token
+## What is a Web Image Canarytoken
 
-This token works much like the default HTTP token, but allows you to bind the token to an image of your choosing. i.e. upload an image to your server. The server will serve this image to people, and will notify you when it does.
+This Canarytoken works much like the default HTTP Canarytoken, but allows you to bind the Canarytoken to an image of your choosing. i.e. upload an image to your server. The server will serve this image to people, and will notify you when it does.
 
-## Creating the token
+## Creating the Canarytoken
 
-Create a token by choosing "Custom Image Web bug" from the drop down list.
+Create a Canarytoken by choosing "Web Image" from the Canarytokens list.
 
-Leave a reasonable comment to remind yourself where you will deploy the token.
+Leave a reasonable comment to remind yourself where you will deploy the Canarytoken.
 
-This token is now a valid link to the image you uploaded.
+This Canarytoken is now a valid link to the image you uploaded.
 
-## How to use this token
+## How to use this Canarytoken
 
 A trick is to embed this image in an admin page for example. An attacker accessing the page will also load the image, sending you your notification that the page has been accessed.
 
