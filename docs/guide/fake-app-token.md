@@ -12,10 +12,10 @@ Create a Canarytoken by choosing "Fake App" from the Canarytokens list.
 
 Select the icon you want to use for the app.
 
-Leave a reasonable comment to remind yourself where you will deploy the Canarytoken.
+Leave a reasonable comment to remind yourself where you will deploy the Canarytoken (e.g. "Fake PayPal app on Alice's phone").
 
 Tap the "Get Fake App Canarytoken" button and follow the installation procedure for your platform.
 
 ## Where to tokenize
 
-A few ideas for use include installing: thwart scammers with a fake banking app, catch people snooping on your phone with a fake password manager / email app, or send your current location to someone in a non-obvious way.
+A few ideas for use include: thwarting scammers with a fake banking app, catching someone snooping on your phone with a fake password manager / email app, or covertly sending your current location to someone.
