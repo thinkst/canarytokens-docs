@@ -8,7 +8,9 @@ If you allow location access, then the alert will contain the device's location 
 
 ## Creating the Canarytoken
 
-Open [canarytokens.org](https://canarytokens.org) in Safari or Google Chrome.
+::: warning Note
+We currently **only** support Safari and Google Chrome.
+:::
 
 Create a Canarytoken by choosing "Fake App" from the Canarytokens list.
 
