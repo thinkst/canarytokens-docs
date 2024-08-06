@@ -8,6 +8,10 @@ If you allow location access, then the alert will contain the device's location 
 
 ## Creating the Canarytoken
 
+::: warning Note
+We currently **only** support Safari and Google Chrome.
+:::
+
 Create a Canarytoken by choosing "Fake App" from the Canarytokens list.
 
 Select the icon you want to use for the app.
