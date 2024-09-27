@@ -13,11 +13,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4.2.0
         with:
           ref: master
       - uses: sobolevn/misspell-fixer-action@master
-      - uses: peter-evans/create-pull-request@v4.2.0
+      - uses: peter-evans/create-pull-request@v7.0.5
         env:
           ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
         with:
