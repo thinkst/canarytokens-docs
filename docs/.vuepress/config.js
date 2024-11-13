@@ -54,7 +54,7 @@ module.exports = {
             'web-image-token',
             'cloned-web-token',
             'css-cloned-site-token',
-	    'entraid-token',
+            'entraid-token',
             'adobe-pdf-token',
             'ms-word-token',
             'ms-excel-token',
@@ -71,6 +71,7 @@ module.exports = {
             'wireguard-token',
             'kubeconfig-token',
             'fake-app-token',
+            'idp-app-token',
           ]
         }
       ]
