@@ -8,7 +8,7 @@ This Canarytoken works by being installed on your Identity Provider SSO dashboar
 
 Create a Canarytoken by choosing "IdP App" from the Canarytokens list.
 
-If you want the app to redirect to a specific URL, enter it in the "Redirect URL" box
+If you want the app to redirect to a specific URL, enter it in the "Redirect URL" box.
 
 Leave a reasonable comment to remind yourself where you will deploy the Canarytoken (e.g. "Fake Salesforce app on Okta").
 
@@ -29,6 +29,11 @@ From the application Properties panel, upload the corresponding application icon
 
 Select 'SAML' as the single sign-on method, and edit the 'Basic SAML Configuration'. From the Canarytoken page, copy the Entity ID to the form, and the URL to *both* the Reply URL and Relay State fields. Now click 'Save'. At the bottom of this page is a test button, which should open a new tab, redirect you to the token, and then to the redirect URL. You should also see an alert pop-up with your email address.
 
-Finally, if you'd like for the token application to appear in the M365 Apps list, assign users (or groups of users) to the application from the 'Users and groups' pane. Finally, the Self-service tab provides an option to allow users to request access to the application, and you can disable requiring approval--now all your users can add or find this application!
+If you'd like for the token application to appear in the M365 Apps list, assign users (or groups of users) to the application from the 'Users and groups' pane. Finally, the Self-service tab provides an option to allow users to request access to the application, and you can disable requiring approval--now all your users can add or find this application!
 
 ### Deploying to Okta
+As an admin user in your Okta organisation, navigate to the Applications panel of your Admin interface. Click 'Create App Integration', select 'SAML 2.0', and click 'Next'. Enter the name of the application as you'd like for it to appear, for example 'GitHub', upload the corresponding app logo, and click 'Next'.
+
+From the Canarytoken page, copy the 'Assertion Consumer Service URL' and paste it in the 'Single sign-on URL' field. Then copy the 'Entity ID' and paste it in the 'Audience URI (SP Entity ID)' field. Scroll down and click 'Next', then click 'Finish'. 
+
+Assign users to the application by clicking the 'Assignments' tab, opening the 'Assign' dropdown, and selecting 'Assign to People' or 'Assign to Groups'. Finally, the Self-service tab provides an option to allow users to request access to the application, and you can disable requiring approval--now all your users can add or find this application!
