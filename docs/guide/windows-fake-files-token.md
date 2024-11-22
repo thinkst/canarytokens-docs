@@ -15,7 +15,8 @@ This is done with a PowerShell script behind the scenes.
 
 Head on over to [canarytokens.org](https://canarytokens.org/generate) and select `Windows Fake File System`:
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/e5e85422-aff6-4b19-aec8-55034c5f5a9d)
+
 
 
 Enter the Path for your folder, email address, or webhook address along with a reminder that will be easy to understand.
