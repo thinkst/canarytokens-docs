@@ -29,7 +29,7 @@ From the application Properties panel, upload the corresponding application icon
 
 Select 'SAML' as the single sign-on method, and edit the 'Basic SAML Configuration'. From the Canarytoken page, copy the 'Entity ID' to the form, and the 'ACS URL' to *both* the 'Reply URL' and 'Relay State' fields. Now click 'Save'. At the bottom of this page is a test button, which should open a new tab, redirect you to the token, and then to the redirect URL. You should also see an alert pop-up with your email address.
 
-If you'd like for the token application to appear in the M365 Apps list, assign users (or groups of users) to the application from the 'Users and groups' pane. Finally, the Self-service tab provides an option to allow users to request access to the application, and you can disable requiring approval--now all your users can add or find this application!
+If you'd like for the token application to appear in the Microsoft 365 Apps list, assign users (or groups of users) to the application from the 'Users and groups' pane. Finally, the Self-service tab provides an option to allow users to request access to the application, and you can disable requiring approval--now all your users can add or find this application!
 
 ### Deploying to Okta
 As an admin user in your Okta organisation, navigate to the Applications panel of your Admin interface. Click 'Create App Integration', select 'SAML 2.0', and click 'Next'. Enter the name of the application as you'd like for it to appear, for example 'GitHub', upload the corresponding app logo, and click 'Next'.
