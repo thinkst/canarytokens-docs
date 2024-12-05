@@ -1,6 +1,6 @@
 # Windows Fake File System
 
-## What is a 
+## What is a Fake File System
 
 Have you ever wanted to create a fake list of sensitive files and get an alert if one of those files is opened or copied?
 
