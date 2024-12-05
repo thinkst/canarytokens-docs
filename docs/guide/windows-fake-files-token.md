@@ -18,28 +18,16 @@ Head on over to [canarytokens.org](https://canarytokens.org/generate) and select
 ![image](https://github.com/user-attachments/assets/e5e85422-aff6-4b19-aec8-55034c5f5a9d)
 
 
-
 Enter the Path for your folder, email address, or webhook address along with a reminder that will be easy to understand.
 
 Then click Create:
 
-[Screen Shot]
+<img width="707" alt="image" src="https://github.com/user-attachments/assets/8f595680-33e6-4957-be02-879193b6905c">
 
-Download the .reg file to a Windows system.
 
-[Screen Shot]
+Download the .ps1 file to a Windows system. You need to execute this as an Administrator. This installs the Winodws Projected File System and creates the scheduled task.
 
-In an admin command shell, import the downloaded registry file by running the reg import command twice. The first time to insert registry keys to monitor 64-bit process executions and second time for 32-bit:
 
-```
-Ensure You Run This As Administrator  
-Ensure you allow PowerShell Scripts. 
-
-When you are ready to remove this token. As Administrator, simply run.
-
-tokenfilename.ps1 -Remove
-
-```
 
 ## How to use this Canarytoken
 
@@ -48,4 +36,7 @@ Once this token is installed. It will create and start a Scheduled Task spawn th
 You can browse to this folder and list files.  This will not trigger an alert. 
 
 If an attacker open or copies a file, then you will get an alert that lets you know the process and file that was accessed. 
+
+If you would like to remove the task, simple run the PowerShell script again with `-Remove`. This will stop the process managing the folder and remove any artifacts created.
+
 
