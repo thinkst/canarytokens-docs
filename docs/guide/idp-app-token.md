@@ -66,6 +66,6 @@ From the Canarytoken page, copy the 'ACS URL' and paste it in the 'Single sign-o
 
 ![Token Details](../.vuepress/images/idp_app/okta_tokendetails.png)
 
-Assign users to the application by clicking the 'Assignments' tab, opening the 'Assign' dropdown, and selecting 'Assign to People' or 'Assign to Groups'. Finally, the Self-service tab provides an option to allow users to request access to the application, and you can disable requiring approval--now all your users can add or find this application!
+Assign users to the application by clicking the 'Assignments' tab, opening the 'Assign' dropdown, and selecting 'Assign to People' or 'Assign to Groups'. Finally, the Self-service tab provides an option to allow users to request access to the application, and you can disable requiring approval—now all your users can add or find this application!
 
 ![Assignments](../.vuepress/images/idp_app/okta_assign.png)
