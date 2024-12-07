@@ -2,23 +2,25 @@
 
 ## What is an IdP SAML2 App Canarytoken
 
-This Canarytoken works by being installed on your Identity Provider SSO dashboard disguised as a normal app. When the app is opened, the Canarytoken sends an alert with the identity of the user whose dashboard it was used from. It can optionally redirect to a specified URL.
+Detect identity compromise with the IdP App Canarytoken. It works simply: you setup a juicy sounding app in your SSO dashboard, and if the app is ever opened then you get an email with the identity of the user who clicked on the fake app. This lets you identify exactly which user was compromised.
+
+Optionally it can redirect the user to a URL of your choice, after they've opened the app. This helps maintain the ruse for longer.
 
 ## Creating the Canarytoken
 
-Create a Canarytoken by choosing "IdP App" from the Canarytokens list.
+Create a Canarytoken by choosing 'IdP App' from the Canarytokens list.
 
-If you want the app to redirect to a specific URL, enter it in the "Redirect URL" box.
+If you want the app to redirect to a specific URL, enter it in the 'Redirect URL' box.
 
-Leave a reasonable comment to remind yourself where you will deploy the Canarytoken (e.g. "Fake Salesforce app on Okta").
+Leave a reasonable comment to remind yourself where you will deploy the Canarytoken (e.g. 'Fake Salesforce app on Okta').
 
-Tap the Create Canarytoken" button. For a realistic impersonation, select the app you want to impersonate from the dropdown and download an icon to use on your dashboard. You can do this again in future from the token's management page.
+Tap the 'Create Canarytoken' button. To fully impersonate a well-known app, select it from the dropdown and download its icon to use on your dashboard.
 
 In your Identity Provider admin interface create a new SAML2 app, give it the name and icon of your choice, and use the SAML SSO login URL and entity ID provided to configure your token. The app can now be assigned to your users. We recommend training folks about which apps are tokened.
 
 ## Installing the Canarytoken
 
-The specific instructions for how to add this token to your suite of SAML applications varies between IdP. Below are detailed instructions for both Microsoft Entra ID (formerly Azure AD) and Okta, the two most popular IdPs.
+The specific instructions for how to add this token to your suite of SAML applications varies between IdP. Below are detailed instructions for both Microsoft Entra ID (formerly Azure AD) and Okta, two leading IdPs.
 
 ### Deploying to Azure
 
@@ -30,7 +32,7 @@ Select 'New Application', then 'Create a new application' and enter the name of 
 
 ![New Application](../.vuepress/images/idp_app/entra_createnew.png)
 
-From the application Properties panel, upload the corresponding application icon, ensure that the application is enabled, and that assignment is not required, and that it's visible to users. Save and move on to the Single sign-on panel.
+From the application Properties panel, upload the corresponding application icon, ensure that the application is enabled, that assignment is not required, and that it's visible to users. Save and move on to the Single sign-on panel.
 
 ![Application Properties](../.vuepress/images/idp_app/entra_properties.png)
 
@@ -56,7 +58,7 @@ Click 'Create App Integration', select 'SAML 2.0', and click 'Next'.
 
 ![New Application](../.vuepress/images/idp_app/okta_newapp.png)
 
-Enter the name of the application as you'd like for it to appear, for example 'Salesforce', upload the corresponding app logo, and click 'Next'.
+Enter the decoy name of the fake application, for example 'Salesforce', upload the corresponding app logo, and click 'Next'.
 
 ![App Name and Icon](../.vuepress/images/idp_app/okta_nameicon.png)
 
