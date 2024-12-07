@@ -45,7 +45,7 @@ From the Canarytoken page, copy the 'Entity ID' to the form, and the 'ACS URL' t
 
 ![SAML Config Form](../.vuepress/images/idp_app/entra_configedsaml.png)
 
-If you'd like for the token application to appear in the Microsoft 365 Apps list, assign users (or groups of users) to the application from the 'Users and groups' pane. Finally, the Self-service tab provides an option to allow users to request access to the application, and you can disable requiring approval--now all your users can add or find this application!
+If you'd like for the token application to appear in the Microsoft 365 Apps list, assign users (or groups of users) to the application from the 'Users and groups' pane. Finally, the Self-service tab provides an option to allow users to request access to the application, and you can disable requiring approval—now all your users can add or find this application!
 
 ![Self-service Settings](../.vuepress/images/idp_app/entra_selfservice.png)
 
