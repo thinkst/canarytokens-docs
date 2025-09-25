@@ -4,7 +4,7 @@
 
 This Canarytoken will alert whenever a transaction is made using the credit card.
 
-We recommend placing one anywhere you store payment information. If you ever get an alert from it, you know that the data store has been compromised.
+We recommend placing one anywhere you store payment information. If you ever get an alert from it, you know that the datastore has been compromised.
 
 ## Using a Credit Card Canarytoken
 
