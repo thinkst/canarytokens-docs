@@ -76,6 +76,7 @@ module.exports = {
             'fake-app-token',
             'idp-app-token',
             'credit-card-token',
+            'unique-email-token',
           ]
         }
       ]
