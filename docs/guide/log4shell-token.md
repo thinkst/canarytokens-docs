@@ -4,7 +4,7 @@
 
 This Canarytoken will alert if log4j logline is consumed by a vulnerable log4j library.
 
-## Using a Log4shell token
+## Using a Log4shell Canarytoken
 
 Create a Canarytoken by choosing the "Log4shell" tile. 
 

@@ -1,10 +1,10 @@
-# Network Folder token
+# Network Folder Canarytoken
 
 ## What is the Network Folder Canarytoken
 
 This Canarytoken will alert whenever a mapped network drive is accessed.
 
-## Using a Network Folder token
+## Using a Network Folder Canarytoken
 
 Create a Canarytoken by choosing the "Network Folder" tile. 
 
