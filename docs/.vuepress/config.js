@@ -55,6 +55,7 @@ module.exports = {
             'cloned-web-token',
             'css-cloned-site-token',
             'entraid-token',
+            'azure-login-certificate-token',
             'adobe-pdf-token',
             'ms-word-token',
             'ms-excel-token',
