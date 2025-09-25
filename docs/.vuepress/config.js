@@ -72,6 +72,7 @@ module.exports = {
             'kubeconfig-token',
             'fake-app-token',
             'idp-app-token',
+            'credit-card-token',
           ]
         }
       ]
