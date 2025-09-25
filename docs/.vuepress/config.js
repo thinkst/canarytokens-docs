@@ -57,6 +57,7 @@ module.exports = {
             'entraid-token',
             'azure-login-certificate-token',
             'adobe-pdf-token',
+            'log4shell-token',
             'network-folder-token',
             'ms-word-token',
             'ms-excel-token',
