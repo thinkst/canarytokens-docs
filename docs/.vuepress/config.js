@@ -51,6 +51,7 @@ module.exports = {
             'examples',
             'adobe-pdf-token',
             'aws-keys-token',
+            'aws-infra-token',
             'entraid-token',
             'azure-login-certificate-token',
             'cloned-web-token',
