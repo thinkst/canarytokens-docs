@@ -42,6 +42,7 @@ module.exports = {
           children: [
             '',
             'getting-started',
+            'alerts',
           ]
         },
         {
