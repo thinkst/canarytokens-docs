@@ -56,6 +56,7 @@ module.exports = {
             'azure-login-certificate-token',
             'cloned-web-token',
             'credit-card-token',
+            'crowdstrike-cc-token',
             'css-cloned-site-token',
             'custom-exe-token',
             'dns-token',
