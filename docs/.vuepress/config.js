@@ -31,7 +31,7 @@ module.exports = {
       // { text: 'Login', link: '/login/' },
     ],
     sidebar: {
-      '/guide/':[
+      '/guide/': [
         {
           title: 'Create',
           path: 'https://canarytokens.org/'
@@ -74,6 +74,7 @@ module.exports = {
             'slow-redirect-token',
             'sensitive-cmd-token',
             'sql-server-token',
+            'svg-token',
             'svn-token',
             'unique-email-token',
             'web-image-token',
