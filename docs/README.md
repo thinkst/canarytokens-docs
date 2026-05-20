@@ -1,7 +1,9 @@
 ---
 home: true
-actionText: School Me! →
-actionLink: /guide/
+actions:
+- text: School Me! →
+  link: /guide/
+  type: primary
 features:
 - title: Deploy in seconds
   details: Nothing to install.

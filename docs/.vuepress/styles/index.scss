@@ -1,0 +1,22 @@
+:root {
+  --vp-c-accent: #03B46E;
+  --vp-c-accent-bg: #03B46E;
+  --vp-c-accent-hover: #03B46E;
+  --vp-c-text: #101419;
+  --vp-c-text-mute: #405060;
+  --vp-c-text-subtle: #6F879F;
+  --vp-c-border: #E0E5EB;
+  --vp-c-gutter: #D1D9E0;
+}
+
+* {
+  scrollbar-color: #D1D9E0 transparent !important;
+}
+
+.vp-navbar .vp-site-name {
+  display: none !important;
+}
+
+.vp-navbar .vp-site-logo {
+  height: 1.8rem;
+}

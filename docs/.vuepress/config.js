@@ -1,52 +1,48 @@
-module.exports = {
-  head: [
-    ['link', { rel: 'icon', href: '/favicon.png' }],
-  ],
-  dest: 'docs/.vuepress/dist',
-  locales: {
-    '/': {
-      lang: 'en-US',
-      title: 'Canarytokens',
-      description: 'Official docs for Canarytokens'
-    },
-  },
-  themeConfig: {
+import { defineUserConfig } from 'vuepress'
+import { viteBundler } from '@vuepress/bundler-vite'
+import { prismjsPlugin } from '@vuepress/plugin-prismjs'
+import { searchPlugin } from '@vuepress/plugin-search'
+import { defaultTheme } from '@vuepress/theme-default'
+
+export default defineUserConfig({
+  bundler: viteBundler(),
+
+  title: 'Canarytokens',
+  description: 'Official docs for Canarytokens',
+  head: [['link', { rel: 'icon', href: '/favicon.png' }]],
+
+  theme: defaultTheme({
+    colorMode: 'light',
+    colorModeSwitch: false,
+
     logo: '/logo.png',
     repo: 'thinkst/canarytokens',
-    repoLabel: 'Github',
     docsRepo: 'thinkst/canarytokens-docs',
-    // if your docs are not at the root of the repo:
-    docsDir: 'docs',
-    // if your docs are in a specific branch (defaults to 'master'):
     docsBranch: 'master',
-    // defaults to false, set to true to enable
-    editLinks: true,
-    // custom text for edit link. Defaults to "Edit this page"
+
+    lastUpdated: true,
+    lastUpdatedText: 'Last Updated',
+    contributors: false,
+    editLink: true,
     editLinkText: 'Help us improve this page!',
-    lastUpdated: 'Last Updated', // string | boolean
-    nav: [
+
+    navbar: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
       { text: 'Create', link: 'https://canarytokens.org/' },
-      // { text: 'Login', link: '/login/' },
     ],
     sidebar: {
       '/guide/': [
         {
-          title: 'Create',
-          path: 'https://canarytokens.org/'
+          text: 'Create',
+          link: 'https://canarytokens.org/',
         },
         {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'getting-started',
-          ]
+          text: 'Guide',
+          children: ['', 'getting-started'],
         },
         {
-          title: 'Examples',
-          collapsable: false,
+          text: 'Examples',
           children: [
             'examples',
             'adobe-pdf-token',
@@ -84,5 +80,12 @@ module.exports = {
         }
       ]
     }
-  }
-};
+  }),
+  plugins: [
+    searchPlugin(),
+    prismjsPlugin({
+      theme: "tomorrow",
+      lineNumbers: false,
+    }),
+  ],
+})
