@@ -61,6 +61,7 @@ export default defineUserConfig({
             'idp-app-token',
             'kubeconfig-token',
             'log4shell-token',
+            'mcp-token',
             'ms-excel-token',
             'ms-word-token',
             'mysql-dump-token',
