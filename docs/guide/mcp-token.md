@@ -13,7 +13,7 @@ Choose how you'd like the token to alert, either on an MCP client connecting to 
 Leave a reasonable comment to remind yourself where you will deploy the Canarytoken.
 
 The JSON configuration that is displayed can be copied or downloaded into a file named `mcp.json`. These files are commonly found in
- code repositories in sub-directories that contain toolchain configurations. Common examples would be `.vscode/`, `.claude/`, or `.cursor/`.
+ code repositories in sub-directories that contain toolchain configurations. Common examples would be `.claude/`, or `.cursor/`. VSCode will look for a file named `.mcp.json` (note the prepended '.') in the root of a workspace.
 
 
 
